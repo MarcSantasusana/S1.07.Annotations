@@ -4,8 +4,10 @@ public class InPersonWorker extends Worker {
 
     private static int benzine;
 
-    public InPersonWorker()
+    public InPersonWorker(String name, String surname)
     {
+
+        super(name, surname);
         benzine = 100;
 
     }

@@ -6,8 +6,10 @@ public class Worker {
     protected String surname;
     protected int costHour;
 
-    public Worker()
+    public Worker(String name, String surname)
     {
+        this.name = name;
+        this.surname = surname;
 
         costHour = 15;
 
@@ -19,5 +21,17 @@ public class Worker {
 
         System.out.println("The worker's cost is " + cost + " euros");
 
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getCostHour() {
+        return costHour;
+    }
+
+    public String getName() {
+        return name;
     }
 }

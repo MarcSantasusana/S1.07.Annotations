@@ -4,9 +4,11 @@ public class OnlineWorker extends Worker {
 
     private final int FEE;
 
-    public OnlineWorker()
+    public OnlineWorker(String name, String surname)
     {
+        super(name, surname);
         FEE = 30;
+
 
     }
 

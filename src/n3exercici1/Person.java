@@ -22,7 +22,7 @@ public class Person implements Serializable {
 
     }
 
-    @SerializeJSON(directory = "C:/Users/Usuari/Desktop")
+    @SerializeJSON(directory = "src/n3exercici1")
     public void serialize(String directory) throws IOException {
 
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(directory + "/person.json"));

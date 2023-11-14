@@ -2,7 +2,7 @@ package n2exercici1;
 
 import java.io.Serializable;
 
-@SerializeJSON(directory = "C:/Users/Usuari/Desktop")
+@SerializeJSON(directory = "src/n2exercici1")
 public class Person implements Serializable {
 
     private String name;
@@ -16,5 +16,17 @@ public class Person implements Serializable {
         this.surname = surname;
         this.age = age;
 
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 }

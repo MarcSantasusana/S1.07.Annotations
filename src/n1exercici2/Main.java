@@ -7,11 +7,11 @@ public class Main {
     public static void main(String[] args)
     {
 
-        OnlineWorker onlineWorker = new OnlineWorker();
+        OnlineWorker onlineWorker = new OnlineWorker("Peter", "Evans");
 
         int fee =  onlineWorker.getFEE();
 
-        InPersonWorker inPersonWorker = new InPersonWorker();
+        InPersonWorker inPersonWorker = new InPersonWorker("Michael", "Brown");
 
         int benzine = inPersonWorker.getBenzine();
 
